@@ -1,4 +1,9 @@
+package domain;
+
 public class Usuario {
-    int id;
-    String nome, login, senha;
+
+    private Long id;
+    private String nome;
+    private String login;
+    private String senha;
 }
